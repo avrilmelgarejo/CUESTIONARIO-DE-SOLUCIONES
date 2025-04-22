@@ -1,9 +1,9 @@
 import streamlit as st
-st.image("preguntas.jpg")
+
 st.set_page_config(page_title="Preguntas sobre Disoluciones", layout="centered")
 st.title("📘 Disoluciones: Preguntas y Respuestas")
 st.write("Haz clic en cada pregunta para ver su respuesta.")
-
+st.image("preguntas.jpg")
 qa = {
     "1. ¿Qué es una solución (o disolución)?":
         "Es una mezcla homogénea de dos o más sustancias en una sola fase. El soluto se disuelve en el solvente formando una sola fase visible.",
