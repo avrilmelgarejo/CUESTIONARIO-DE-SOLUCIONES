@@ -1,5 +1,5 @@
 import streamlit as st
-
+st.images("preguntas.jpg")
 st.set_page_config(page_title="Preguntas sobre Disoluciones", layout="centered")
 st.title("📘 Disoluciones: Preguntas y Respuestas")
 
