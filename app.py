@@ -1,4 +1,5 @@
 import streamlit as st
+st.image("preguntas.jpg")
 st.set_page_config(page_title="Preguntas sobre Disoluciones", layout="centered")
 st.title("📘 Disoluciones: Preguntas y Respuestas")
 st.write("Haz clic en cada pregunta para ver su respuesta.")
@@ -37,8 +38,6 @@ qa = {
     "11. Si sabemos que cuando diluimos 36 gramos de sal de mesa en 100 gramos de agua a 20°C, la solución queda saturada, ¿qué pasaría si intentamos disolver 38 gramos de sal en 100 gramos de agua?":
         "Quedarán 2 gramos sin disolverse. La solución estará saturada y el exceso de sal precipitará al fondo."
 }
-
 for pregunta, respuesta in qa.items():
     with st.expander(pregunta):
         st.markdown(respuesta)
-st.images("preguntas.jpg")
